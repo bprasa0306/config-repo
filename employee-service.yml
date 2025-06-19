@@ -1,12 +1,12 @@
 server:
   port: 8083
 
-  spring:
-    data:
+spring:
+  data:
     mongodb:
       uri: mongodb+srv://bojjaprasanna2022:Hymavathi1234%40@prasannacluster.znz3sl5.mongodb.net/employeeDb?retryWrites=true&w=majority
-     
-  eureka:
-    client:
-      service-url:
-        defaultZone: http://localhost:8761/eureka
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
